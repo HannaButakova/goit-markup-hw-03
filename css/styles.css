@@ -109,9 +109,20 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* hero */
+
 .page-footer,
 .hero {
   background-color: #2e2f42;
+}
+
+.hero-container {
+  display: block;
+  align-items: center;
+  padding: 188px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .hero-title {
@@ -120,15 +131,31 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  width: 496px;
+  margin-bottom: 48px;
+  margin-right: auto;
+  margin-left: auto;
 }
-button {
-  background-color: #4d5ae5;
+.hero-image-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  padding: 16px 0;
+}
+
+button {
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
   cursor: pointer;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 button:hover,
