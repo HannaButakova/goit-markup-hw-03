@@ -120,7 +120,7 @@ a {
 .hero-container {
   display: block;
   align-items: center;
-  padding: 188px;
+  padding: 188px 0;
   margin-right: auto;
   margin-left: auto;
 }
@@ -131,10 +131,10 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  width: 496px;
   margin-bottom: 48px;
   margin-right: auto;
   margin-left: auto;
+  max-width: 496px;
 }
 .hero-image-button {
   font-weight: 500;
@@ -142,11 +142,11 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  padding: 16px 0;
+  padding: 16px 32px;
 }
 
 button {
-  width: 169px;
+  min-width: 169px
   height: 56px;
   border-radius: 4px;
   padding: 16px 32px;
@@ -156,6 +156,7 @@ button {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  border: none; 
 }
 
 button:hover,
