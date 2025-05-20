@@ -164,22 +164,29 @@ button:focus {
 }
 
 /* section one */
+.section-one {
+  padding: 120px 0;
+}
 .one-container {
   display: flex;
   align-items: center;
-  padding: 120px 0;
 }
 .one-list {
   display: flex;
   align-items: center;
   gap: 24px;
 }
-.Benefits {
+
+.visually-hidden {
   display: none;
+}
+.one-item {
+  width: calc((100% - 72px) / 4);
 }
 .one-title {
   margin-bottom: 8px;
 }
+
 .project-name {
   font-weight: 500;
   font-size: 20px;
