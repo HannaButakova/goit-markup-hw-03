@@ -175,6 +175,11 @@ button:focus {
   display: flex;
   align-items: center;
 }
+.one-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 
 .visually-hidden {
   position: absolute;
@@ -188,12 +193,6 @@ button:focus {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.one-list {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}
-
 .one-item {
   width: calc((100% - 72px) / 4);
 }
@@ -316,7 +315,4 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-.webstudio {
-  margin-bottom: 16px;
 }
