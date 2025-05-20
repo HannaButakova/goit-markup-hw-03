@@ -242,6 +242,9 @@ button:focus {
 .three-item {
   background-color: #fff;
 }
+.two-item {
+  border-radius: 0px 0px 4px 4px;
+}
 .name {
   font-weight: 500;
   font-size: 20px;
