@@ -208,10 +208,25 @@ button:focus {
   letter-spacing: 0.02em;
 }
 
+/* section two */
 .section-two {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
-
+.container-two {
+  display: block;
+}
+.two-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.two-text {
+  display: block;
+  padding: 32px 0;
+  max-width: 232px;
+  margin: 0 auto;
+}
 .two-title,
 .three-title {
   font-size: 36px;
@@ -220,6 +235,7 @@ button:focus {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin: 0 auto 72px;
 }
 
 .two-item,
@@ -233,6 +249,7 @@ button:focus {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin: 0 auto 8px;
 }
 .position {
   font-size: 16px;
