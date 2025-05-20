@@ -316,3 +316,7 @@ button:focus {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
