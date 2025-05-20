@@ -175,23 +175,25 @@ button:focus {
   display: flex;
   align-items: center;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .one-list {
   display: flex;
   align-items: center;
   gap: 24px;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
 .one-item {
   width: calc((100% - 72px) / 4);
 }
@@ -300,9 +302,21 @@ button:focus {
 }
 
 /*footer*/
+.page-footer {
+  padding: 100px 0;
+}
+.container-footer {
+  display: block;
+  max-width: 264px;
+  margin-left: 0;
+}
+
 .text-footer {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.webstudio {
+  margin-bottom: 8px;
 }
