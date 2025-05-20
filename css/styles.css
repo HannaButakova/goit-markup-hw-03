@@ -154,8 +154,7 @@ button {
   background-color: #4d5ae5;
   cursor: pointer;
   display: block;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
   border: none;
 }
 
@@ -164,7 +163,23 @@ button:focus {
   background-color: #404bbf;
 }
 
-.one-title,
+/* section one */
+.one-container {
+  display: flex;
+  align-items: center;
+  padding: 120px 0;
+}
+.one-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.Benefits {
+  display: none;
+}
+.one-title {
+  margin-bottom: 8px;
+}
 .project-name {
   font-weight: 500;
   font-size: 20px;
