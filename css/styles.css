@@ -26,6 +26,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 /* common */
 .container {
   max-width: 1158px;
@@ -221,6 +225,9 @@ button:focus {
   align-items: center;
   gap: 24px;
 }
+.two-item {
+  border-radius: 0px 0px 4px 4px;
+}
 .two-text {
   display: block;
   padding: 32px 0;
@@ -242,9 +249,7 @@ button:focus {
 .three-item {
   background-color: #fff;
 }
-.two-item {
-  border-radius: 0px 0px 4px 4px;
-}
+
 .name {
   font-weight: 500;
   font-size: 20px;
@@ -261,10 +266,32 @@ button:focus {
   text-align: center;
 }
 
+/* section three */
+
+.section-three {
+  padding: 120px 0;
+}
+.container-three {
+  display: block;
+}
+.three-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.three-text {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  max-width: 360px;
+}
 .project-type {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .text-footer {
   font-size: 16px;
