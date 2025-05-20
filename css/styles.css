@@ -278,6 +278,7 @@ button:focus {
   display: flex;
   align-items: center;
   gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
 }
 .three-text {
@@ -287,12 +288,18 @@ button:focus {
   padding: 32px 16px;
   max-width: 360px;
 }
+.project-name {
+  margin-bottom: 8px;
+}
+
 .project-type {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
+
+/*footer*/
 .text-footer {
   font-size: 16px;
   line-height: 1.5;
